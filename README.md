@@ -6,7 +6,6 @@
 
 More on this topic : 
 
-<br>
 <a href="https://stackoverflow.com/questions/674304/why-is-init-always-called-after-new">Stackoverflow</a> 
 <br>
 <a href="https://www.geeksforgeeks.org/__new__-in-python/">GeeksForGeeks</a> 
