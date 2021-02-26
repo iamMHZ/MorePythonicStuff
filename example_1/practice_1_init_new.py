@@ -1,5 +1,4 @@
-# showing the order of them 
-
+# showing the order of __init__ and __new__
 class Test1:
 
     def __new__(cls, *args, **kwargs):
@@ -23,7 +22,7 @@ class Test2:
         return self.name
 
 
-# What if we don't return anything in the __new__
+# What if the __new__ does not return anything
 class Test3:
     # __new__ doest not return an object
     def __new__(cls, *args, **kwargs):
@@ -37,7 +36,7 @@ class Test3:
 
 
 class Test4:
-    # while __new__ doest not return an object the __init is not gonna be called
+    # while __new__ doest not return an object the __init__ is not gonna be called
     def __new__(cls, *args, **kwargs):
         print('hey __new__ does not return an object So __init__ is not called')
 
