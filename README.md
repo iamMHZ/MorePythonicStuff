@@ -1,6 +1,6 @@
-!-- topic 1 --! 
+<!-- topic 1 -->
 
-<h3> __init__ vs __new__ </h3>
+<h3> __init__ vs __new__ :</h3>
 
 - <a href="/practice_1_init_new.py">My Code</a> 
 
