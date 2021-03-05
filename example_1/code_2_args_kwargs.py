@@ -19,6 +19,9 @@ def test2(*args):
     args[0] = 12
 
 
+# TODO Add about * **
+# TODO Add **kwargs
+
 if __name__ == '__main__':
     # test1('1', 1212, 'hey this is an arg')
 
