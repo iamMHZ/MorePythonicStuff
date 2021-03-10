@@ -2,7 +2,7 @@
 
 <h3> __init__ vs __new__ :</h3>
 
-- <a href="/example_1/code1">My Code Example</a> 
+- <a href="/examples/code1">My Code Example</a> 
 
 - More on this topic : 
 
@@ -17,7 +17,7 @@
 
 <h3> *args and **kwargs :</h3>
 
-- <a href="/example_1/code2.py">My Code Example</a> 
+- <a href="/examples/code2.py">My Code Example</a> 
 
 - More on this topic : 
 

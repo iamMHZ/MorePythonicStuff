@@ -45,8 +45,6 @@ def test5(**kwargs):
         print(val)
 
 
-# TODO Add about * **
-
 if __name__ == '__main__':
     # test1('1', 1212, 'hey this is an arg')
 
