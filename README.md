@@ -21,9 +21,9 @@
 
 - More on this topic : 
 
-    - <a href="https://realpython.com/python-kwargs-and-args/">Stackoverflow</a>
-    - <a href="https://book.pythontips.com/en/latest/args_and_kwargs.html">GeeksForGeeks</a>
-    - <a href="https://www.programiz.com/python-programming/args-and-kwargs">Lintel Blog</a> 
+    - <a href="https://realpython.com/python-kwargs-and-args/">realpython</a>
+    - <a href="https://book.pythontips.com/en/latest/args_and_kwargs.html">book.pythontips</a>
+    - <a href="https://www.programiz.com/python-programming/args-and-kwargs">programiz</a> 
 
 
 <hr>
