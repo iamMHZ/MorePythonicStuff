@@ -2,7 +2,7 @@
 
 <h3> __init__ vs __new__ :</h3>
 
-- <a href="/examples/code1">My Code Example</a> 
+- <a href="/examples/code1.py">My Code Example</a> 
 
 - More on this topic : 
 
