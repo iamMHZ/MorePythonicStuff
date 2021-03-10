@@ -1,3 +1,6 @@
+# __init__ vs __new__
+
+
 # showing the order of __init__ and __new__
 class Test1:
 

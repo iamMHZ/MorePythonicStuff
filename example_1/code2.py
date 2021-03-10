@@ -1,3 +1,6 @@
+# *args and **kwargs
+
+
 # In the nutshell args and kwargs enable you to pass optional, multiple, and arbitrary inputs to a function
 # 'args' and 'kwargs' are just the arbitrary names you can choose whatever you want but they are conventions
 # so it would be better to stick with them
