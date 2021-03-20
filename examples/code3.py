@@ -166,6 +166,7 @@ def return_random_message(message_size):
     return message
 
 
+# TODO add some real-world decorators from opensource projects
 if __name__ == '__main__':
     # test1()
 
