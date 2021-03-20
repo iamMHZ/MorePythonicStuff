@@ -69,10 +69,62 @@ def say_sth():
 
 
 # Example2
-# This example shows the other way of decorating a function
+# This example shows the other way of decorating a function (using '@nameOfDecorator')
 @decorator1
 def say_another_thing():
     print('I am saying another thing lol')
+
+
+# Example 3
+# Passing the function arguments to the decorator
+# The following code has this error : inner() takes 0 positional arguments but 1 was given
+def decorator2(func):
+    def inner():
+        func()
+
+    return inner
+
+
+@decorator2
+def print_message(message):
+    print('The message is: ' + str(message))
+
+
+# Example 4
+# A correct way of example 3
+def decorator3(func):
+    def inner(msg):
+        func(msg)
+
+    return inner
+
+
+@decorator3
+def print_message2(message):
+    print('The message is: ' + str(message))
+
+
+# Example 5
+# A better way to handle arguments passed to a decorator
+# using args and kwargs you can pass multiple arguments to a function
+def decorator_that_handles_arguments(func):
+    def inner(*args, **kwargs):
+        print('kwargs: ' + str(kwargs))
+        print('args: ' + str(args))
+        print('Hey I am counting: ')
+
+        if args:
+            func(*args)
+        else:
+            func(**kwargs)
+
+    return inner
+
+
+@decorator_that_handles_arguments
+def count(star, end):
+    for i in range(star, end):
+        print(i)
 
 
 if __name__ == '__main__':
@@ -89,4 +141,9 @@ if __name__ == '__main__':
     # say = decorator1(say_sth)
     # say()
 
-    say_another_thing()
+    # say_another_thing()
+
+    # print_message2('message is nothingggggg ...')
+
+    count(2, 5)
+    count(star=2, end=5)
