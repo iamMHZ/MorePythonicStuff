@@ -6,6 +6,8 @@
 # Example 1
 # Just an inner function
 from symbol import decorated
+import random
+import string
 
 
 def test1():
@@ -127,6 +129,43 @@ def count(star, end):
         print(i)
 
 
+# Example 6
+# The below code shows the wrong way of returning values while
+# The problem is tha we don't return anything from the inner function
+def decorator4(func):
+    def inner(*args, **kwargs):
+        func(*args)
+
+    return inner
+
+
+@decorator4
+def generate_random_number(start, end):
+    return random.randint(start, end)
+
+
+# Example 6
+# if your decorated function returns something make sure that
+# your inner function in the decorator returns the thing
+# that you want
+def decorator_that_knows_correct_returning(func):
+    def inner(*args, **kwargs):
+        value_to_return = func(*args)
+
+        return value_to_return
+
+    return inner
+
+
+@decorator_that_knows_correct_returning
+def return_random_message(message_size):
+    message = ''
+    for _ in range(message_size):
+        message += random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits)
+
+    return message
+
+
 if __name__ == '__main__':
     # test1()
 
@@ -145,5 +184,11 @@ if __name__ == '__main__':
 
     # print_message2('message is nothingggggg ...')
 
-    count(2, 5)
-    count(star=2, end=5)
+    # count(2, 5)
+    # count(star=2, end=5)
+
+    # random_int = generate_random_number(10, 100)
+    # print(random_int)  # the output will be None because of no returning anything from inner function in the decorator
+
+    random_string = return_random_message(20)
+    print(random_string)
