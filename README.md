@@ -39,7 +39,9 @@
     - <a href="https://www.geeksforgeeks.org/decorators-in-python/">geeksforgeeks</a>
     - <a href="https://www.python-course.eu/python3_decorators.php">python-course</a>
     - <a href="https://www.python.org/dev/peps/pep-0318/">python.org</a>
-      
+    - <a href="https://github.com/django/django/blob/main/django/contrib/admin/decorators.py">Some Django Decorators 1</a>
+    - <a href="https://github.com/django/django/blob/main/django/contrib/auth/decorators.py">Some Django Decorators 2</a>
+
     - add some opensource and real-world decorators here line a link to tensorflow or Django
 
 <hr>
