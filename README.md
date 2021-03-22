@@ -41,6 +41,7 @@
     - <a href="https://www.python.org/dev/peps/pep-0318/">python.org</a>
     - <a href="https://github.com/django/django/blob/main/django/contrib/admin/decorators.py">Some Django Decorators 1</a>
     - <a href="https://github.com/django/django/blob/main/django/contrib/auth/decorators.py">Some Django Decorators 2</a>
+    - <a href="https://docs.python.org/3/library/functools.html">functools in python</a>
 
     - add some opensource and real-world decorators here line a link to tensorflow or Django
 
