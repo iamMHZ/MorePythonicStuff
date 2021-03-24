@@ -56,7 +56,9 @@
 
   - <a href="https://stackoverflow.com/a/6581949/14119218"> Python Meta classes a stackoverflow question</a>
   - <a href="https://stackoverflow.com/a/10344231/14119218"> Django Meta classes a stackoverflow question</a>
-  - <a href="https://docs.djangoproject.com/en/dev/topics/db/models/#meta-options"> Django Meta classes Django documents</a>
+  - <a href="https://docs.djangoproject.com/en/dev/topics/db/models/#meta-options"> Django docs for Meta class in Django Models</a>
+  - <a href="https://stackoverflow.com/questions/39476334/why-class-meta-is-necessary-while-creating-a-model-form"> Django Meta class in Django ModelForm a stackoverflow question</a>
+  - <a href="https://docs.djangoproject.com/en/dev/topics/forms/modelforms/"> Django docs for Meta class in Django ModelForm </a>
   
   
   
