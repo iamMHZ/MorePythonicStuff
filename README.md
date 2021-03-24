@@ -60,6 +60,7 @@
   - <a href="https://stackoverflow.com/questions/39476334/why-class-meta-is-necessary-while-creating-a-model-form"> Django Meta class in Django ModelForm, a stackoverflow question</a>
   - <a href="https://docs.djangoproject.com/en/dev/topics/forms/modelforms/"> Django docs for Meta class in Django ModelForm </a>
   - <a href="https://github.com/django/django/blob/main/django/db/models/base.py"> Real-World example of python metaclass in Django source </a>
+  - <a href="https://docs.python.org/3.9/reference/datamodel.html#metaclasses"> Python docs for MetaClasses </a>
   
   
   
