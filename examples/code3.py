@@ -166,6 +166,8 @@ def return_random_message(message_size):
     return message
 
 
+# TODO read more on the realpython about class decorators
+
 # TODO add/see some real-world decorators from opensource projects
 if __name__ == '__main__':
     # test1()
