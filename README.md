@@ -56,6 +56,7 @@
 
   - <a href="https://stackoverflow.com/a/6581949/14119218"> Python Meta classes a stackoverflow question</a>
   - <a href="https://stackoverflow.com/a/10344231/14119218"> Django Meta classes a stackoverflow question</a>
+  - <a href="https://docs.djangoproject.com/en/dev/topics/db/models/#meta-options"> Django Meta classes Django documents</a>
   
   
   
