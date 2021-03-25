@@ -50,7 +50,7 @@
 
 <h3> Meta classes:</h3>
 
-- <a href="#"> My Code Example </a>
+- <a href="/examples/code4.py"> My Code Example </a>
 
 - More on this topic:
 
@@ -62,7 +62,13 @@
   - <a href="https://github.com/django/django/blob/main/django/db/models/base.py"> Real-World example of python metaclass in Django source </a>
   - <a href="https://docs.python.org/3.9/reference/datamodel.html#metaclasses"> Python docs for MetaClasses </a>
   
-  
+<hr>  
+
+<h3> Testing in python:</h3>
+
+- <a href="/examples/code5.py"> My Code Example </a>
+
+- More on this topic:
   
   
   
