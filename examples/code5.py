@@ -47,5 +47,19 @@ class SimpleTestCase2(unittest.TestCase):
         pass
 
 
+# Example 3
+# How to skip a test?
+# You can use the same decorator to skip a class too
+# There are other decorators too like unittest.skipIf
+class SkipTestCase(unittest.TestCase):
+
+    @unittest.skip('We are just skipping')
+    def test_skip_me(self):
+        print('lazy we are and we are skipping')
+
+    def test_not_to_skip(self):
+        print('We skipped the previous test hahaha')
+
+
 if __name__ == '__main__':
     unittest.main()
