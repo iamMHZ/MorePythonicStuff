@@ -86,6 +86,7 @@
 - More on this topic:
   - <a href="https://realpython.com/python-mock-library/" >ReadPython --Understanding the Python Mock Object Library</a>
   - <a href="https://docs.python.org/3/library/unittest.mock.html" >Python docs</a>
+  - <a href="https://mock.readthedocs.io/en/latest/">Mock's docs</a>
   
 <hr>  
 
