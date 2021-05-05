@@ -81,7 +81,11 @@
 
 <h3> Advanced Testing (e.g. mocking , ... ) :</h3>  
 
+- <a href="/examples/code6.py"> My Code Example </a>
 
+- More on this topic:
+  - <a href="https://realpython.com/python-mock-library/" >ReadPython --Understanding the Python Mock Object Library</a>
+  - <a href="https://docs.python.org/3/library/unittest.mock.html" >Python docs</a>
   
 <hr>  
 
