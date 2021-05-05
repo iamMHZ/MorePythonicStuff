@@ -87,6 +87,8 @@
   - <a href="https://realpython.com/python-mock-library/" >ReadPython --Understanding the Python Mock Object Library</a>
   - <a href="https://docs.python.org/3/library/unittest.mock.html" >Python docs</a>
   - <a href="https://mock.readthedocs.io/en/latest/">Mock's docs</a>
+  - <a href="https://realpython.com/testing-third-party-apis-with-mocks/">RealPython --Testing External APIs With Mock Servers PART 1</a>
+  - <a href="https://realpython.com/testing-third-party-apis-with-mock-servers/">RealPython --Testing External APIs With Mock Servers PART 2</a>
   
 <hr>  
 
